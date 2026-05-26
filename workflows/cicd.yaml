@@ -1,1 +1,13 @@
 
+name: first-GHA-TEST
+ ON:
+  push
+
+ Jobs:
+  sravan-first-job:
+    runs-on: ubuntu-latest
+
+  steps:
+    -name: Message
+      run: echo "Welcome to Demo on Github Action"
+ 
