@@ -7,7 +7,9 @@ name: first-GHA-TEST
   sravan-first-job:
     runs-on: ubuntu-latest
 
-  steps:
-    -name: Message
-      run: echo "Welcome to Demo on Github Action"
+    steps:
+      -name: Message
+       run: echo "Welcome to Demo on Github Action"
+
+      
  
