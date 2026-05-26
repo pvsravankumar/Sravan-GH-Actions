@@ -1,14 +1,13 @@
 
 name: first-gh-test
+on:
+  push
  
- push: 
- 
- jobs:
+jobs:
    b16_first_job:
      runs-on: ubuntu-latest
      
      steps:
-     
        -name: message
         run: echo "sravan GITHUB Actions"
   
