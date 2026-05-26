@@ -8,6 +8,6 @@ jobs:
      runs-on: ubuntu-latest
      
      steps:
-       -name: message
-        run: echo "sravan GITHUB Actions"
+       - name: message
+         run: echo "sravan GITHUB Actions"
   
